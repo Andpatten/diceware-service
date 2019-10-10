@@ -35,5 +35,5 @@ public class DicewareServiceApplication {
   public ResourceBundle bundle() {
     return ResourceBundle.getBundle("wordlist");
   }
-  
+
 }
