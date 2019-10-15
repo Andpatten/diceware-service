@@ -29,7 +29,6 @@ public class Word {
   @NonNull
   @ManyToOne(fetch = FetchType.EAGER)
   @JoinColumn(name = "passhrase_id", nullable = false, updatable = false)
-  @OnDelete(action = OnDeleteAction.CASCADE)
   private Passphrase passphrase;
 
   public Long getId() {
